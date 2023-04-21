@@ -6,5 +6,5 @@
 </pre>
 
 <pre>
-  <kbd> Ctrl+V->j->Shift-i->changes->esc </kdb> : replace on x lines
+  <kbd> Ctrl+V->j->Shift-i->changes->esc </kbd> : replace on x lines
 </pre>
