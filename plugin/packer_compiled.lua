@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/impatient.nvim",

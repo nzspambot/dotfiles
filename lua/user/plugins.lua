@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use { "folke/trouble.nvim"}
   use { "kdheepak/lazygit.nvim"}
   use { "hashivim/vim-terraform"}
+  use { "ThePrimeagen/harpoon" }
 
 	-- Colorschemes
   use { "folke/tokyonight.nvim" }
