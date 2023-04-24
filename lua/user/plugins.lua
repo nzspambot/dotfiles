@@ -64,8 +64,9 @@ return packer.startup(function(use)
 	-- Colorschemes
   use { "folke/tokyonight.nvim" }
   use { "lunarvim/darkplus.nvim" }
-
-	-- Cmp 
+  use { "rebelot/kanagawa.nvim" }
+	
+  -- Cmp 
   use { "hrsh7th/nvim-cmp" } -- The completion plugin
   use { "hrsh7th/cmp-buffer" } -- buffer completions
   use { "hrsh7th/cmp-path" } -- path completions
@@ -84,7 +85,8 @@ return packer.startup(function(use)
 	use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" }
   use { "github/copilot.vim"}
-	-- Telescope
+
+  -- Telescope
 	use { "nvim-telescope/telescope.nvim" }
 
 	-- Treesitter
