@@ -254,6 +254,11 @@ _G.packer_plugins = {
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
   },
+  ["vim-terraform"] = {
+    loaded = true,
+    path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/vim-terraform",
+    url = "https://github.com/hashivim/vim-terraform"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/which-key.nvim",
