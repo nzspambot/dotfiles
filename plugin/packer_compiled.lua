@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gh.nvim"] = {
+    loaded = true,
+    path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/gh.nvim",
+    url = "https://github.com/ldelossa/gh.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -163,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
     url = "https://github.com/kdheepak/lazygit.nvim"
+  },
+  ["litee.nvim"] = {
+    loaded = true,
+    path = "/Users/nzspambot/.local/share/nvim/site/pack/packer/start/litee.nvim",
+    url = "https://github.com/ldelossa/litee.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
