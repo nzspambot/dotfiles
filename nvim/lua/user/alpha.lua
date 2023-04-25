@@ -5,21 +5,24 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-	[[                               __                ]],
-	[[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
-	[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
-	[[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
-	[[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
-	[[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
+[[  __    _  _______  _______  _______  _______  __   __  _______  _______  _______  ]],
+[[ |  |  | ||       ||       ||       ||   _   ||  |_|  ||  _    ||       ||       | ]],
+[[ |   |_| ||____   ||  _____||    _  ||  |_|  ||       || |_|   ||   _   ||_     _| ]],
+[[ |       | ____|  || |_____ |   |_| ||       ||       ||       ||  | |  |  |   |   ]],
+[[ |  _    || ______||_____  ||    ___||       ||       ||  _   | |  |_|  |  |   |   ]],
+[[ | | |   || |_____  _____| ||   |    |   _   || ||_|| || |_|   ||       |  |   |   ]],
+[[ |_|  |__||_______||_______||___|    |__| |__||_|   |_||_______||_______|  |___|   ]],
+[[                                                                                   ]]
 }
 dashboard.section.buttons.val = {
-	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
-	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
-	dashboard.button("p", "  Find project", ":Telescope projects <CR>"),
-	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
-	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
-	dashboard.button("c", "  Configuration", ":e $MYVIMRC <CR>"),
-	dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+	dashboard.button("f",  "  Find file", ":Telescope find_files <CR>"),
+	dashboard.button("e",  "  New file", ":ene <BAR> startinsert <CR>"),
+	dashboard.button("p",  "  Find project", ":Telescope projects <CR>"),
+	dashboard.button("r",  "  Recently used files", ":Telescope oldfiles <CR>"),
+	dashboard.button("t",  "  Find text", ":Telescope live_grep <CR>"),
+	dashboard.button("c",  "  Configuration", ":e $MYVIMRC <CR>"),
+  dashboard.button("gg", "  Open LazyGit", ":gg<CR>"),
+	dashboard.button("q",  "  Quit Neovim", ":qa<CR>"),
 }
 
 local function footer()
@@ -28,7 +31,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "chrisatmachine.com"
+	return "github.com/nzspambot"
 end
 
 dashboard.section.footer.val = footer()
