@@ -60,8 +60,6 @@ return packer.startup(function(use)
   use { "kdheepak/lazygit.nvim"}
   use { "hashivim/vim-terraform"}
   use { "ThePrimeagen/harpoon" }
-  use { "ldelossa/gh.nvim" }
-	use { "ldelossa/litee.nvim"}
  
   -- Colorschemes
   use { "folke/tokyonight.nvim" }
@@ -96,8 +94,9 @@ return packer.startup(function(use)
 
 	-- Git
 	use { "lewis6991/gitsigns.nvim" }
+  use { "ldelossa/gh.nvim", requires = { { 'ldelossa/litee.nvim' } }}
 
-	-- Automatically set up your configuration after cloning packer.nvim
+  -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
