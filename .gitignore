@@ -8,4 +8,4 @@ gh-dash/*
 op/*
 
 #Ignore this as usernames are diff
-nvim/plugin/packer_complied.lua
+nvim/plugin/*

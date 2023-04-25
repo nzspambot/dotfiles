@@ -61,7 +61,17 @@ return packer.startup(function(use)
   use { "hashivim/vim-terraform"}
   use { "ThePrimeagen/harpoon" }
   use { "justinmk/vim-sneak" }
- 
+  --TODO: is this ideal?
+  use {
+    "folke/todo-comments.nvim",
+      requires = "nvim-lua/plenary.nvim",
+      collectgarbageconfig = function()
+        require("todo-comments").setup {
+      }
+    end
+  }
+
+
   -- Colorschemes
   use { "folke/tokyonight.nvim" }
   use { "lunarvim/darkplus.nvim" }
