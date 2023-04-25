@@ -3,3 +3,9 @@ gh/*
 github-copilot/*
 iterm2/*
 gtk-2.0/*
+containers/*
+gh-dash/*
+op/*
+
+#Ignore this as usernames are diff
+nvim/plugin/packer_complied.lua
