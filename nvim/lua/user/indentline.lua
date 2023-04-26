@@ -42,6 +42,7 @@ vim.g.indent_blankline_context_patterns = {
 	"catch_clause",
 	"import_statement",
 	"operation_type",
+  "resource",
 }
 -- HACK: work-around for https://github.com/lukas-reineke/indent-blankline.nvim/issues/59
 vim.wo.colorcolumn = "99999"
@@ -52,14 +53,14 @@ vim.wo.colorcolumn = "99999"
 -- vim.cmd [[highlight IndentBlanklineIndent4 guifg=#56B6C2 gui=nocombine]]
 -- vim.cmd [[highlight IndentBlanklineIndent5 guifg=#61AFEF gui=nocombine]]
 -- vim.cmd [[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]]
--- vim.opt.list = true
--- vim.opt.listchars:append "space:⋅"
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
 -- vim.opt.listchars:append "space:"
--- vim.opt.listchars:append "eol:↴"
+vim.opt.listchars:append "eol:↴"
 
 indent_blankline.setup({
-	-- show_end_of_line = true,
-	-- space_char_blankline = " ",
+	show_end_of_line = true,
+	space_char_blankline = " ",
 	show_current_context = true,
 	-- show_current_context_start = true,
 	-- char_highlight_list = {
