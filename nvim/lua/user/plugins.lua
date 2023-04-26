@@ -70,6 +70,7 @@ return packer.startup(function(use)
   use { "folke/tokyonight.nvim" }
   use { "lunarvim/darkplus.nvim" }
   use { "rebelot/kanagawa.nvim" }
+  use { "projekt0n/github-nvim-theme" }
 	
   -- Cmp 
   use { "hrsh7th/nvim-cmp" } -- The completion plugin
