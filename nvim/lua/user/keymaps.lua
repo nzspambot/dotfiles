@@ -5,10 +5,7 @@ local term_opts = { silent = true }
 -- Shorten function name
 local keymap = vim.api.nvim_set_keymap
 
---Remap space as leader key
 keymap("", "<Space>", "<Nop>", opts)
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
 
 -- Modes
 --   normal_mode = "n",
@@ -71,8 +68,8 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 vim.cmd([[let g:terraform_fmt_on_save=1]])
 vim.cmd([[let g:terraform_align=1]])
 
-local mark = require("harpoon.mark")
-local ui = require("harpoon.ui")
+--local mark = require("harpoon.mark")
+--local ui = require("harpoon.ui")
 
-vim.keymap.set("n", "<C-a>", mark.add_file)
-vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
+--vim.keymap.set("n", "<C-a>", mark.add_file)
+--vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
