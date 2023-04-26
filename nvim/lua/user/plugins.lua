@@ -62,8 +62,8 @@ return packer.startup(function(use)
   use { "ThePrimeagen/harpoon" }
   use { "justinmk/vim-sneak" }
   use { "romgrk/barbar.nvim", requires = "nvim-web-devicons" }
+  use { "mbbill/undotree" }
 
-  --TODO: is this ideal?
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
 
   -- Colorschemes
