@@ -5,7 +5,7 @@ end
 
 
 local setup = {
-  vim.cmd('colorscheme github_dark')
+  vim.cmd('colorscheme github_dark_high_contrast')
 }
 
 colour.setup(setup)
