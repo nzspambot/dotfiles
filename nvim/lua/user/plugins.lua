@@ -1,5 +1,4 @@
 local fn = vim.fn
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -27,7 +26,6 @@ local plugins = {
   "kyazdani42/nvim-tree.lua",
   "akinsho/bufferline.nvim",
 	"moll/vim-bbye",
-  "nvim-lualine/lualine.nvim",
   "akinsho/toggleterm.nvim",
   "ahmedkhalf/project.nvim",
   "lewis6991/impatient.nvim",
@@ -42,6 +40,9 @@ local plugins = {
   "romgrk/barbar.nvim", dependencies = {"nvim-web-devicons"},
   "mbbill/undotree",
   "folke/todo-comments.nvim", dependencies = {"nvim-lua/plenary.nvim"},
+  "yamatsum/nvim-nonicons",
+  "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
+  "norcalli/nvim-colorizer.lua",
 
   -- Colorschemes
   "folke/tokyonight.nvim",
