@@ -68,6 +68,22 @@ local plugins = {
 	"jose-elias-alvarez/null-ls.nvim",
   "RRethy/vim-illuminate",
   "github/copilot.vim",
+  'VonHeikemen/lsp-zero.nvim',
+    branch = 'v2.x',
+    dependencies = {
+      {'neovim/nvim-lspconfig'},
+      {
+        'williamboman/mason.nvim',
+        build = function()
+         pcall(vim.cmd, 'MasonUpdate')
+      end,
+      },
+      {'williamboman/mason-lspconfig.nvim'},
+    {'hrsh7th/nvim-cmp'},     -- Required
+    {'hrsh7th/cmp-nvim-lsp'}, -- Required
+    {'L3MON4D3/LuaSnip'},     -- Required
+  },
+
 
   -- Telescope
 	"nvim-telescope/telescope.nvim",
@@ -81,5 +97,5 @@ local plugins = {
   "ldelossa/gh.nvim", dependencies = {"ldelossa/litee.nvim"},
 }
 
-require("lazy").setup(plugins, opts)
+require("lazy").setup(plugins)
 
