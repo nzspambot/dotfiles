@@ -49,6 +49,7 @@ local plugins = {
   "lunarvim/darkplus.nvim",
   "rebelot/kanagawa.nvim",
   "projekt0n/github-nvim-theme",
+  "navarasu/onedark.nvim",
 
   -- Cmp 
   "hrsh7th/nvim-cmp",
@@ -69,6 +70,7 @@ local plugins = {
 	"jose-elias-alvarez/null-ls.nvim",
   "RRethy/vim-illuminate",
   "github/copilot.vim",
+  "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
   'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
     dependencies = {

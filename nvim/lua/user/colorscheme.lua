@@ -1,11 +1,4 @@
-local status_ok, colour = pcall(require, "github-theme")
-if not status_ok then
-  return
-end
-
-
-local setup = {
-  vim.cmd('colorscheme github_dark_high_contrast')
+require('onedark').setup {
+    style = 'darker'
 }
-
-colour.setup(setup)
+require('onedark').load()
