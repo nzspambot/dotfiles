@@ -43,6 +43,7 @@ local plugins = {
   "yamatsum/nvim-nonicons",
   "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
   "norcalli/nvim-colorizer.lua",
+  "justinmk/vim-sneak",
 
   -- Colorschemes
   "folke/tokyonight.nvim",
@@ -100,5 +101,15 @@ local plugins = {
   "ldelossa/gh.nvim", dependencies = {"ldelossa/litee.nvim"},
 }
 
-require("lazy").setup(plugins)
+local opts = {
+    readme = {
+    enabled = true,
+    root = vim.fn.stdpath("state") .. "/lazy/readme",
+    files = { "README.md", "lua/**/README.md" },
+    -- only generate markdown helptags for plugins that dont have docs
+    skip_if_doc_exists = true,
+  },
+}
+
+require("lazy").setup(plugins, opts)
 
