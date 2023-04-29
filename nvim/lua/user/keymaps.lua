@@ -73,3 +73,5 @@ vim.cmd([[let g:terraform_align=1]])
 
 --vim.keymap.set("n", "<C-a>", mark.add_file)
 --vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
+--vim.keymap.set('n', '<leader>mh', vim.cmd('lua require(\'memento\').toggle()<CR>'))
+

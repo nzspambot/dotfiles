@@ -44,12 +44,14 @@ local plugins = {
   "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
   "norcalli/nvim-colorizer.lua",
   "justinmk/vim-sneak",
+  "gaborvecsei/memento.nvim",
 
   -- Colorschemes
   "folke/tokyonight.nvim",
   "lunarvim/darkplus.nvim",
   "rebelot/kanagawa.nvim",
-  "projekt0n/github-nvim-theme",
+--  "projekt0n/github-nvim-theme",
+  "EdenEast/nightfox.nvim",
   "navarasu/onedark.nvim",
 
   -- Cmp 
