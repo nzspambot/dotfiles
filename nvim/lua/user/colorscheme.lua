@@ -1,1 +1,4 @@
-vim.cmd("colorscheme carbonfox")
+require('onedark').setup {
+    style = 'warmer'
+}
+require('onedark').load()
