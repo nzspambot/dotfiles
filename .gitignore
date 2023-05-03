@@ -7,3 +7,4 @@ containers/*
 gh-dash/*
 op/*
 **/lazy-lock.json
+kitty/startup.conf
