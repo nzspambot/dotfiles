@@ -37,11 +37,11 @@ local plugins = {
   "hashivim/vim-terraform",
   "theprimeagen/harpoon",
   "justinmk/vim-sneak",
-  "romgrk/barbar.nvim", dependencies = {"nvim-web-devicons"},
   "mbbill/undotree",
   "folke/todo-comments.nvim", dependencies = {"nvim-lua/plenary.nvim"},
   "yamatsum/nvim-nonicons",
-  "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
+  "nvim-lualine/lualine.nvim",dependencies = { 'nvim-tree/nvim-web-devicons', opt = true },
+--  "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
   "norcalli/nvim-colorizer.lua",
   "justinmk/vim-sneak",
   "gaborvecsei/memento.nvim",
@@ -89,6 +89,7 @@ local plugins = {
     {'hrsh7th/cmp-nvim-lsp'}, -- Required
     {'L3MON4D3/LuaSnip'},     -- Required
   },
+    "udalov/kotlin-vim",
 
 
   -- Telescope

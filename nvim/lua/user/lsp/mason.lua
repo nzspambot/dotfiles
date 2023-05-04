@@ -6,6 +6,7 @@ local servers = {
 	"yamlls",
   "terraformls",
   "tflint",
+  "kotlin_language_server",
 }
 
 local settings = {
