@@ -41,16 +41,17 @@ local plugins = {
   "folke/todo-comments.nvim", dependencies = {"nvim-lua/plenary.nvim"},
   "yamatsum/nvim-nonicons",
   "nvim-lualine/lualine.nvim",dependencies = { 'nvim-tree/nvim-web-devicons', opt = true },
---  "glepnir/galaxyline.nvim", dependencies = {"yamatsum/nvim-nonicons"},
   "norcalli/nvim-colorizer.lua",
   "justinmk/vim-sneak",
   "gaborvecsei/memento.nvim",
-
+  "MunifTanjim/nui.nvim",
+  "rcarriga/nvim-notify",
+  "folke/noice.nvim", dependencies = {"MunifTanjim/nui.nvim", "rcarriga/nvim-notify"},
+  "phaazon/hop.nvim",
   -- Colorschemes
   "folke/tokyonight.nvim",
   "lunarvim/darkplus.nvim",
   "rebelot/kanagawa.nvim",
---  "projekt0n/github-nvim-theme",
   "EdenEast/nightfox.nvim",
   "navarasu/onedark.nvim",
 
