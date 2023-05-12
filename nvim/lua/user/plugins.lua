@@ -37,7 +37,6 @@ local plugins = {
   "hashivim/vim-terraform",
   "theprimeagen/harpoon",
   "justinmk/vim-sneak",
-  "mbbill/undotree",
   "folke/todo-comments.nvim", dependencies = {"nvim-lua/plenary.nvim"},
   "yamatsum/nvim-nonicons",
   "nvim-lualine/lualine.nvim",dependencies = { 'nvim-tree/nvim-web-devicons', opt = true },
@@ -48,30 +47,27 @@ local plugins = {
   "rcarriga/nvim-notify",
   "folke/noice.nvim", dependencies = {"MunifTanjim/nui.nvim", "rcarriga/nvim-notify"},
   "phaazon/hop.nvim",
-  -- Colorschemes
-  "folke/tokyonight.nvim",
-  "lunarvim/darkplus.nvim",
-  "rebelot/kanagawa.nvim",
-  "EdenEast/nightfox.nvim",
-  "navarasu/onedark.nvim",
+  "mvllow/modes.nvim",
 
+  -- Colorschemes
+  "navarasu/onedark.nvim",
+  "Alexis12119/nightly.nvim",
   -- Cmp 
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-buffer",
   "hrsh7th/cmp-path",
-	"saadparwaiz1/cmp_luasnip",
-	"hrsh7th/cmp-nvim-lsp",
-	"hrsh7th/cmp-nvim-lua",
+   "saadparwaiz1/cmp_luasnip",
+  "hrsh7th/cmp-nvim-lsp",
+  "hrsh7th/cmp-nvim-lua",
 
-	-- Snippets
+  -- Snippets
   "L3MON4D3/LuaSnip",
   "rafamadriz/friendly-snippets",
-
-	-- LSP
-	"neovim/nvim-lspconfig",
+ -- LSP
+  "neovim/nvim-lspconfig",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
-	"jose-elias-alvarez/null-ls.nvim",
+  "jose-elias-alvarez/null-ls.nvim",
   "RRethy/vim-illuminate",
   "github/copilot.vim",
   "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
@@ -94,7 +90,8 @@ local plugins = {
 
 
   -- Telescope
-	"nvim-telescope/telescope.nvim",
+  "debugloop/telescope-undo.nvim",
+	"nvim-telescope/telescope.nvim", dependencies = { "debugloop/telescope-undo" },
 
 	-- Treesitter
 	"nvim-treesitter/nvim-treesitter",
