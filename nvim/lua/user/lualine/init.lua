@@ -17,19 +17,19 @@ local colors = {
 
 local bubbles_theme = {
   normal = {
-    a = { fg = colors.black, bg = colors.cyan },
-    b = { fg = colors.white, bg = colors.grey },
-    c = { fg = colors.black, bg = colors.black },
+    a = { fg = colors.black, bg = colors.green },
+    b = { fg = colors.black, bg = colors.cyan },
+    c = { fg = colors.white, bg = colors.grey},
   },
 
-  insert = { a = { fg = colors.black, bg = colors.red } },
-  visual = { a = { fg = colors.black, bg = colors.violet } },
-  replace = { a = { fg = colors.black, bg = colors.green } },
+  insert = { a = { fg = colors.grey, bg = colors.red } },
+  visual = { a = { fg = colors.grey, bg = colors.violet } },
+  replace = { a = { fg = colors.grey, bg = colors.green } },
 
   inactive = {
     a = { fg = colors.white, bg = colors.black },
     b = { fg = colors.white, bg = colors.black },
-    c = { fg = colors.black, bg = colors.black },
+    c = { fg = colors.white, bg = colors.black },
   },
 }
 
@@ -63,7 +63,7 @@ local bubbles_theme = {
 --  extensions = {},
 --}
 require('lualine').setup({
-  options = { theme = 'nightly' },
+  options = { theme = bubbles_theme },
   sections = {
     lualine_c = {
       {
@@ -71,6 +71,8 @@ require('lualine').setup({
         file_status = true, -- displays file status (readonly status, modified status)
         path = 1 -- 0 = just filename, 1 = relative path, 2 = absolute path
       }
-    }
+    },
+    lualine_y = { 'progress' },
+    lualine_z = { 'location','selectioncount'}
   }
 })
