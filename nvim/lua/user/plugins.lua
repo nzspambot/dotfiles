@@ -48,7 +48,7 @@ local plugins = {
   "folke/noice.nvim", dependencies = {"MunifTanjim/nui.nvim", "rcarriga/nvim-notify"},
   "phaazon/hop.nvim",
   "mvllow/modes.nvim",
-
+  "f-person/git-blame.nvim",
   -- Colorschemes
   "navarasu/onedark.nvim",
   "Alexis12119/nightly.nvim",
