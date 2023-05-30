@@ -69,6 +69,12 @@ return {
           delay = 0,
           reveal = { "close" },
         },
+        numbers = function(opts)
+          if vim.api.nvim_get_current_tabpage() == opts.id then return "" end
+          return opts.ordinal
+        end,
+        enforce_regular_tabs = true,
+        always_show_bufferline = true,
       },
     },
   },

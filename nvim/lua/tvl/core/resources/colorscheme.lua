@@ -29,7 +29,7 @@ return {
         background_clear = {},
         plugins = {
           bufferline = {
-            underline_selected = true,
+            underline_selected = false,
             underline_visible = false,
             bold = false,
           },
