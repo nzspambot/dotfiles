@@ -107,7 +107,6 @@ return {
   },
   {
     "kdheepak/lazygit.nvim",
-     keys = { { "<leader>gg", "<cmd>:LazyGit<cr>", desc = "Open Lazygit" } },
      dependencies = {
        "nvim-lua/plenary.nvim",
     },
