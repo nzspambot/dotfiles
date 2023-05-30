@@ -5,6 +5,11 @@ return {
   },
 
   {
+    "Alexis12119/nightly.nvim",
+    lazy = true,
+  },
+
+  {
     "catppuccin/nvim",
     lazy = true,
   },
@@ -31,7 +36,7 @@ return {
           bufferline = {
             underline_selected = false,
             underline_visible = false,
-            bold = false,
+            bold = true,
           },
           indent_blankline = {
             context_highlight = "pro", -- default | pro

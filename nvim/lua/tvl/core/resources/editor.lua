@@ -40,7 +40,7 @@ return {
       popup_border_style = Util.generate_borderchars("thick", "tl-t-tr-r-bl-b-br-l"),
       -- source_selector provides clickable tabs to switch between sources.
       source_selector = {
-        winbar = true, -- toggle to show selector on winbar
+        winbar = false, -- toggle to show selector on winbar
         content_layout = "center",
         tabs_layout = "equal",
         show_separator_on_edge = true,

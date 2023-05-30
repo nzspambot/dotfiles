@@ -41,13 +41,10 @@ return {
     opts = {
       options = {
         diagnostics = "nvim_lsp", -- | "nvim_lsp" | "coc",
-        -- separator_style = "", -- | "thick" | "thin" | "slope" | { 'any', 'any' },
-        -- separator_style = { "", "" }, -- | "thick" | "thin" | { 'any', 'any' },
         separator_style = "slant", -- | "thick" | "thin" | { 'any', 'any' },
         indicator = {
-          -- icon = " ",
-          -- style = 'icon',
-          style = "underline",
+          icon = " ",
+          style = 'icon',
         },
         close_command = "Bdelete! %d", -- can be a string | function, see "Mouse actions"
         diagnostics_indicator = function(count, _, _, _)
@@ -59,9 +56,9 @@ return {
         offsets = {
           {
             filetype = "neo-tree",
-            text = "EXPLORER",
+            text = "FILE EXPLORER",
             text_align = "center",
-            -- separator = true,
+            separator = true,
           },
         },
         hover = {
