@@ -67,6 +67,7 @@ local plugins = {
  -- LSP
   "neovim/nvim-lspconfig",
   "williamboman/mason.nvim",
+  "lvimuser/lsp-inlayhints.nvim",
   "williamboman/mason-lspconfig.nvim",
   "jose-elias-alvarez/null-ls.nvim",
   "RRethy/vim-illuminate",
