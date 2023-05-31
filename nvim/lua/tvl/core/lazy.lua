@@ -19,7 +19,7 @@ require("lazy").setup({
     -- version = false, -- always use the latest git commit
     version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "nightly", "habamax" } },
+  install = { colorscheme = { "onedark", "habamax" } },
   checker = { enabled = false, notify = false },
   performance = {
     rtp = {
@@ -37,3 +37,5 @@ require("lazy").setup({
     },
   },
 })
+
+vim.cmd "colorscheme onedark"

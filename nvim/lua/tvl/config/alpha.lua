@@ -16,7 +16,7 @@ local logo = {
 ▐░▌      ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌     ▐░▌     
  ▀        ▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀            ▀         ▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀       ▀      
 ]]
-},
+}
 dashboard.section.header.val = vim.split(logo.western_dragon, "\n")
 dashboard.section.buttons.val = {
   dashboard.button("r", "  Recently files", ":Telescope oldfiles <CR>"),
