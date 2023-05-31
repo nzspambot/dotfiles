@@ -118,19 +118,6 @@ return {
         prompt_prefix = "   ",
         selection_caret = "  ",
         entry_prefix = "   ",
-        borderchars = {
-          prompt = Util.generate_borderchars(
-            "thick",
-            nil,
-            { top = "█", top_left = "█", right = " ", top_right = " ", bottom_right = " " }
-          ),
-          results = Util.generate_borderchars(
-            "thick",
-            nil,
-            { top = "█", top_left = "█", right = " ", top_right = " ", bottom_right = " " }
-          ),
-          preview = Util.generate_borderchars("thick", nil, { top = "█", top_left = "█", top_right = "█" }),
-        },
         dynamic_preview_title = true,
         hl_result_eol = true,
         sorting_strategy = "ascending",

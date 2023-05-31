@@ -97,7 +97,6 @@ return {
     end,
   },
 
-  
   {
     "akinsho/nvim-toggleterm.lua",
     cmd = "ToggleTerm",
