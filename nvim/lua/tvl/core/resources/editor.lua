@@ -261,13 +261,15 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     opts = {
       signs = {
-        add = { text = "┃" },
-        change = { text = "┋" },
-        delete = { text = "契" },
-        topdelhfe = { text = "契" },
+        add = { text = "+" },
+        change = { text = "~" },
+        delete = { text = "_" },
+        topdelhfe = { text = "‾" },
         changedelete = { text = "┃" },
         untracked = { text = "┃" },
       },
+      numhl = true,
+      linehl = true,
       current_line_blame = true,
       current_line_blame_opts = {
         delay = 300,

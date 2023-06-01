@@ -104,7 +104,17 @@ M.mode = {
   fmt = function(str)
     local left_sep = hl_str(config.separator_icon.left, "SLSeparator", "SLPadding")
     local right_sep = hl_str(config.separator_icon.right, "SLSeparator", "SLPadding")
-    return left_sep .. hl_str(str, "SLMode") .. right_sep
+
+    local mode_colors = {
+      normal = "green",
+      insert = "red",
+      visual = "violet",
+      -- Add more modes and their respective colors here
+    }
+
+    local mode_color = mode_colors[vim.fn.mode()]
+
+    return left_sep .. hl_str(str, "SLMode", mode_color) .. right_sep
   end,
 }
 
