@@ -21,6 +21,8 @@ keymap("n", "<c-l>", "<c-w>l", opts)
 keymap("n", "<c-j>", "<c-w>j", opts)
 keymap("n", "<c-k>", "<c-w>k", opts)
 
+-------------------- Open Terminal ------------------
+keymap("n", "<leader>ts", "<cmd>vsplit | terminal<CR>", opts)
 -------------------- Navigate buffers --------------------------
 -- keymap("n", "<S-l>", ":bnext<CR>", opts)
 -- keymap("n", "<S-h>", ":bprevious<CR>", opts)
@@ -94,3 +96,4 @@ vim.keymap.set("n", "<C-f>", function()
   -- You can pass additional configuration to telescope to change theme, layout, etc.
   require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes"))
 end, { desc = "[/] Fuzzily search in current buffer]" })
+
