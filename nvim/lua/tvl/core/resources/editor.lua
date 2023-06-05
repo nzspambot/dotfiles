@@ -216,7 +216,6 @@ return {
     },
     -- config = function() require("tvl.config.telescope") end,
   },
-
   {
     "folke/which-key.nvim",
     event = "VeryLazy",
@@ -269,7 +268,6 @@ return {
         untracked = { text = "┃" },
       },
       numhl = true,
-      linehl = true,
       current_line_blame = true,
       current_line_blame_opts = {
         delay = 300,
