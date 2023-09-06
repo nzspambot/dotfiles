@@ -99,3 +99,6 @@ end, { desc = "[/] Fuzzily search in current buffer]" })
 
 -------------------- notepad  --------------------------------
 keymap("n", "<leader>b", "<cmd>:e ~/buffer<CR>", opts)
+
+-------------------- cmp fix maybe --------------------------------
+vim.keymap.set('c', '<tab>', '<C-z>', { silent = false })
