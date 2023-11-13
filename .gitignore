@@ -8,3 +8,7 @@ gh-dash/*
 op/*
 **/lazy-lock.json
 kitty/startup.conf
+yarn/*
+1Password/ssh/agent.toml
+packer/checkpoint_cache
+packer/checkpoint_signature
