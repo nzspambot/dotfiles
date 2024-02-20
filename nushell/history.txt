@@ -1,0 +1,570 @@
+la
+ls
+ll
+all
+ls -la
+ssh jbaker@nuc.nzspambot.xyz
+ssh jbaker@dos.nzspambot.xyz
+ssh nzspambot@dos.nzspambot.xyz
+ssh jbaker@nuc.nzspambot.xyz
+ls
+ls -la
+ls
+cat private_key_prod.pem
+history
+h
+aws --version
+nu --help
+which nu
+chsh  /opt/homebrew/bin/nu 
+42 | describe
+foo | desribe
+foo | describe
+echo foo | describe
+echo true | describe
+echo 'true' | describe
+"1.2" | into float
+enter terraform/
+shells
+p
+n
+p
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+exit
+curl -sS https://starship.rs/install.sh | sh
+mkdir -p ~/.config && touch ~/.config/starship.toml<\n>
+mkdir -p ~/.config && touch ~/.config/starship.toml
+mkdir -p ~/.config and touch ~/.config/starship.toml
+touch ~/.config/starship.toml
+code ~/.config/starship.toml
+exit
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu<\n>
+exit
+cd terraform/
+$nu.config-path
+code /Users/jamesb/Library/Application Support/nushell/config.nu
+exit
+$nu.env-path
+code /Users/jamesb/Library/Application Support/nushell/env.nu
+$nu.config-path
+code /Users/jamesb/Library/Application Support/nushell/config.nu
+exit
+code ~/.config/starship.toml
+cd  /Users/jamesb/Library/Application Support/nushell
+cd  /Users/jamesb/Library/Application \Support/nushell
+cd  /Users/jamesb/Library/Application\ Support/nushell
+cd  `/Users/jamesb/Library/Application Support/nushell/`
+ll
+ls
+vim env.nu
+vim config.nu
+exit
+npdi
+saml2aws
+saml2aws login
+aws --version
+aws s3 ls
+cd ~/.
+ll
+ls
+al
+all
+list
+ls
+ls --all
+cd .config
+ls
+cd ..
+touch ~/.config/starship.toml
+cd .config
+ll
+ls
+code starship.toml
+z runway
+code ~/.zshrc
+exit
+z runway
+docker
+config nu
+config nu2
+config nu
+code ~/.config/nu/config.toml
+config nu
+exit
+config nu
+enter `/Users/jamesb/Library/Application Support/nushell/`
+ls
+code config
+code config.nu
+ls
+shells
+enter ~/.config
+shells
+p
+n
+h
+history
+config nu
+exit
+config nu
+shells
+history
+enter `/Users/jamesb/Library/Application Support/nushell/`
+code config.nu
+exit
+code config.nu
+config nu
+code config.nu
+exit
+code config.nu
+config nu
+cd ~/.config
+ll
+ls
+cd .config
+ll
+ls --all
+edit
+code starship.toml
+z runway
+cd ~/git/runway/
+ll
+ls
+cd docker/
+gl
+ls
+git pull
+cd ~/
+ls
+cd ~/git/runway/
+cd terraform/
+exit
+git status
+exit
+cd terraform/modules/
+cd ..
+^z runway
+z
+zoxide init nushell | save -f ~/.zoxide.nu
+brew install zoxide
+zoxide init nushell | save -f ~/.zoxide.nu
+edit config
+config nu
+exit
+cd ../runway
+cd terraform/modules/
+ls
+exit
+z runway
+cd ../runway
+z
+cd ~/git
+cd ../config
+cd ../.config
+z
+z runway
+cd terraform/modules/
+ls
+cd cloudfront/
+z .config
+ls
+vim starship.toml
+z .config
+git all
+git add
+git add .
+git commit -m 'added starship'
+git push
+z runway
+go --version
+go version
+cd do
+cd docker/
+ls
+ls where size > 1mb
+ls | where size > 1mb
+ls | where size > 100kb
+ls | where size > 10kb
+ls | where size > 1kb
+ls | where modified > 1 week
+ls | where modified > 1week
+ls | where modified >1week
+ls | where modified > 1w
+./terraform
+scope aliases
+help aliases
+show
+shells
+show shells
+config nu
+code ~/.zshrc
+exit
+alias
+h
+scope aliases
+exit
+show shells
+shelles
+shells
+enter ~/git/devinfra/runway
+p
+n
+exit
+def lsg [] { ls | sort-by type name -i | grid -c | str trim }
+lsg
+def gitcp[] {<\n>    git add -A :/<\n>    git commit -S -m "$1"<\n>    git push<\n>}
+def gitcp [] {<\n>    git add -A :/<\n>    git commit -S -m "$1"<\n>    git push<\n>}
+gl
+alias gl = git pull
+gl
+z runway
+gitcp "misc change"
+def gitcp [message] {<\n>    git add -A :/<\n>    git commit -S -m $message<\n>    git push<\n>}
+gitcp "misc change"
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+ls
+top
+htop
+http checkip.amazonaws.com
+http get checkip.amazonaws.com
+http get https://checkip.amazonaws.com
+http get https://checkip.amazonaws.com | json
+http get https://checkip.amazonaws.com | to json
+http get https://checkip.amazonaws.com | to yaml
+http get https://checkip.amazonaws.com
+edit config
+config nu
+brew install cargo
+brew install rust
+cargo install nu_plugin_dns
+nu --commands $"register ($env.CARGO_HOME)/bin/nu_plugin_dns"
+$env.CARGO_HOME = /Users/jamesb/.cargo
+nu --commands $"register ($env.CARGO_HOME)/bin/nu_plugin_dns"
+'google.com' | dns query
+dns
+exit
+dns
+help commands | where command_type == "plugin"
+dns query
+dns query amazon.com
+alias 'dns query' = dns
+dns nzspambot.xyz
+dns query  nzspambot.xyz
+dns query amazon.com
+dns nzspambot.xyz
+alias dns = 'dns query'
+alias dns = dns query
+dns nzspambot.xyz
+exit
+dns nzspambot.xyz
+dns query amazon.com
+alias dns = dns query
+dns nzspambot.xyz
+help commands | where command_type == "plugin"
+dns -t CNAME nzspambot.xyz
+dns -t cname nzspambot.xyz
+dns -t AAAA nzspambot.xyz
+dns -t AAAA web.nzspambot.xyz
+dns query amazon.com
+dns web.nzspambot.xyz
+help commands | where command_type == "plugin"
+dns -t AAAA -s 1.1.1.1 web.nzspambot.xyz
+dns -t AAAA -s 1.1.1.1 nzspambot.xyz
+dns -t AAAA -s 1.1.1.1 radarr.nzspambot.xyz
+dns -t A -s 1.1.1.1 radarr.nzspambot.xyz
+cargo install nu_plugin_units
+ls ($env.CARGO_HOME)/bin/
+ls ($env.CARGO_HOME)
+ls ($env.CARGO_HOME)/bin
+ls $env.CARGO_HOME/bin
+ls CARGO_HOME/bin
+ls $CARGO_HOME/bin
+nu --commands $"register ($env.CARGO_HOME)/bin/nu_plugin_units"
+h
+help commands | where command_type == "plugin"
+edit ~/.cargo/bin/nu_plugin_units
+code ~/.cargo/bin/nu_plugin_units
+cargo install nu_plugin_hcl<\n>register ~/.cargo/bin/nu_plugin_hcl
+cargo install nu_plugin_hcl
+nu --commands $"register ($env.CARGO_HOME)/.cargo/bin/nu_plugin_hcl"
+ls /Users/jamesb/.cargo/.cargo/bin
+ls /Users/jamesb/.cargo/bin/
+nu --commands $"register ($env.CARGO_HOME)/bin/nu_plugin_hcl"
+help commands | where command_type == "plugin"
+z runway
+cd terraform/modules/eventbridge/
+open -r main.tf | from hcl
+register ~/.cargo/bin/nu_plugin_hcl
+open -r main.tf | from hcl
+open -r main.tf | from hcl | first 10
+open -r main.tf | from hcl 
+units -c time -u years -v 1
+units 
+help commands | where command_type == "plugin"
+register ~/.cargo/bin/nu_plugin_units
+help commands | where command_type == "plugin"
+units -c time -u years -v 1
+units -c time -u s -v 3
+units -c time -u seconds -v 3
+units -c time -u seconds -v 3600
+cargo install nu_plugin_regex
+cargo install --git https://github.com/fdncred/nu_plugin_regex.git
+cargo install --git git@github.com:fdncred/nu_plugin_regex.git
+cargo install --git https://github.com/fdncred/nu_plugin_regex.git
+cargo install nu_plugin
+cargo install --git https://github.com/fdncred/nu_plugin_regex.git --verbose
+cargo install nu_plugin_regex
+cargo search
+cargo search nu_plugin
+cargo search nu_plugin --limit 70
+cargo install nu_plugin_ps
+cargo install nu_plugin_s3
+cargo search nu_plugin --limit 70
+cargo install nu-plugin
+caergo add nu-plugin
+cargo install nu_plugin_match
+ls /Users/jamesb/.cargo/bin/
+register ~/.cargo/bin/nu_plugin_dns
+register ~/.cargo/bin/nu_plugin_units
+register ~/.cargo/bin/nu_plugin_hcl
+z runway
+ps
+z runway
+nu --version
+register ~/.cargo/bin/nu_plugin_dns
+register ~/.cargo/bin/nu_plugin_units
+register ~/.cargo/bin/nu_plugin_hcl
+clear
+ps
+z runwat
+z runway
+float_precision
+register ~/.cargo/bin/nu_plugin_hcl
+z runway
+cargo install nu_plugin_emoji
+cargo search nu_plugin --limit 70
+cargo uninstall nu_plugin_match
+cargo uninstall nu_plugin_ps
+ls /Users/jamesb/.cargo/bin/
+cargo uninstall nu_plugin_s3
+cargo search nu_plugin --limit 70
+cargo install nu_plugin_ps
+cargo uninstall nu_plugin_ps
+gh repo clone
+cd ~/git
+ls
+rm cashkite.manifest.json
+rm private_key.pem
+rm public_key.pem
+ll
+all
+ls
+rm -rf paylater/
+rm -rf ops/
+rm -rf cdk/
+rm -rf cash
+rm -rf aws/
+rm -rf nzo
+rm -rf hello
+rm -rf documentation/
+ll
+ls
+alias ll = ls -la
+ll
+rm data.json
+rm -rf nerdfix
+ll
+rm -rf kub/
+ll
+ll downloads/
+rm -rf downloads/
+ll
+ls common/
+rm -rf common/
+ll
+ls -la env
+ls -la env/
+rm env
+ll saved/
+rm -rf saved
+ll
+ll tools/
+rm -rf tools/
+ll
+ll wip/
+rm -rf wip/
+ll
+cd devinfra/
+ll
+z runwau
+z runway/
+cd ..
+ll
+cd ..
+ll
+ls runway/
+rm -rf runway/
+cd devinfra/
+ll
+rm -rf graphql/
+rm -rf helm-deployer-buildkite-plugin/
+rm -rf nexus-infrastructure/
+rm -rf runway-deploy/
+rm -rf runway-network/
+rm -rf runway-tests/
+rm -rf stuff/
+ll
+chmod 775 driveway/
+ll
+mv afterpay-baseimages/ ../
+mv cloud-cover/ ../
+mv driveway/ ../
+mv platform-docs/ ../
+mv runway/ ../
+mv runway-pipeline-config/ ../
+ll
+cd ..
+ll
+rm -rf devinfra/
+ll
+git clone git@github.com:fdncred/nu_plugin_emoji.git
+code nu_plugin_emoji/
+cargo search nu_plugin --limit 70
+cargo install --help
+cargo install --path nu_plugin_emoji/
+register ~/.cargo/bin/nu_plugin_emoji
+history | where name 
+history 
+help commands | where command_type == "plugin"
+emoji :wave:
+git clone git@github.com:yanganto/nu_plugin_s3.git
+code nu_plugin_s3/
+cargo search nu_plugin --limit 70
+cargo search nu_p --limit 70
+cargo search nu_pro --limit 70
+cargo search s3hand --limit 70
+cargo install nu_plugin_s3
+config nu
+cargo uninstall nu_plugin_s3
+cargo install --git git@github.com:fdncred/nu_plugin_regex.git
+cargo install --git https://github.com/fdncred/nu_plugin_regex.git --verbose
+git clone git@github.com:fdncred/nu_plugin_regex.git
+code nu_plugin_regex/
+cargo install --path nu_plugin_regex/
+register ~/.cargo/bin/nu_plugin_regex
+'abc123abc' | regex '\d+'
+'abc123abc' | regex '*'
+'abc123abc' | regex '$*'
+'abc123abc' | regex '^*'
+'abc123abc' | regex '\^*'
+nu config
+config nu
+code ~/.config/starship.toml
+'abc123abc' | regex '[a-c]'
+'abc123abc' | regex '(?<word>\w{3})(?<num>\d{3})(\w{3})'
+exit
+nu
+exit
+docker context
+docker context list
+git status
+rm -rf nu_plugin_regex/
+'abc123abc' | regex '(?<word>\w{3})(?<num>\d{3})(\w{3})'
+cargo search nu-plugin
+cargo search nu-plugin --limit 100
+std assert (1 == 2)
+use std
+std assert (1 == 2)
+fnpdi
+config env
+alias fnpdi = SAML2AWS_SESSION_DURATION=3600 SAML2AWS_ROLE='arn:aws:iam::206804657081:role/ap-devinfra-206804657081' saml2aws login --force --skip-prompt
+fnpdi
+SAML2AWS_SESSION_DURATION=3600 SAML2AWS_ROLE='arn:aws:iam::206804657081:role/ap-devinfra-206804657081' saml2aws login --force --skip-prompt
+aws ssm 
+aws ssm list-assocation
+aws ssm list-assocations
+aws ssm list-associations
+aws ssm list-associations --region ap-southeast-2
+aws ec2 list-instances --region ap-southeast-2
+aws ec2 describe-instances --region ap-southeast-2
+aws ec2 describe-instances --region ap-southeast-2 --output json
+aws ec2 describe-instances --region ap-southeast-2 | from json
+aws ec2 describe-instances --region ap-southeast-2 --filters "Name=tag:Name,Values=Buildkite Agent" --query "Reservations[].Instances[].{Instance:InstanceId,State:State.Name,Name:Tags[?Key=='Name'].Value[]}" | from json
+aws ec2 describe-instances --region ap-southeast-2 --filters "Name=tag:Name,Values=Buildkite Agent" --query "Reservations[].Instances[].{Instance:InstanceId,State:State.Name,Name:Tags[?Key=='Name'].Value[]}" --output table
+aws ec2 describe-instances --region ap-southeast-2 --filters "Name=tag:Name,Values=Buildkite Agent" --query "Reservations[].Instances[].{Instance:InstanceId,State:State.Name,Name:Tags[?Key=='Name'].Value[]}" | from json
+aws ec2 describe-instances --region ap-southeast-2 --filters "Name=tag:Name,Values=Buildkite Agent" --query "Reservations[].Instances[].{Instance:InstanceId,State:State.Name,Name:Tags[?Key=='Name'].Value[]}" | from json | to yaml
+brew upgrade
+z terraform stack
+cd terraform/stacks/
+z
+z list
+z --help
+z pwd
+z terraform stacks
+ls
+cd buildkite/
+fnpdi
+h 
+SAML2AWS_SESSION_DURATION=3600 SAML2AWS_ROLE='arn:aws:iam::206804657081:role/ap-devinfra-206804657081' saml2aws login --force --skip-prompt
+terraform init
+brew search terraform
+brew upgrade terraform
+brew upgrade --force terraform
+brew reinstall terraform
+brew search terraform
+brew list --versions terraform
+brew install warrensbox/tap/tfswitch
+brew unlink terraform
+brew install warrensbox/tap/tfswitch
+tfswitch
+terraform init
+~/bin/terraform init
+~/bin/terraform init --upgrade
+~/bin/terraform plan --upgrade
+~/bin/terraform plan
+cd ../../modules/buildkite/
+~/bin/terraform init --upgrade
+~/bin/terraform plan
+brew list
+brew bundle dump
+git status
+cat Brewfile
+ls
+rm Brewfile
+cd ~/
+brew bundle dump
+ll
+ls
+cd .config/
+git status
+git add
+git add .
+gitcp "added starship"
+nu config
+config nu
+h | grep nu
+nu config
+code ~/.config/nu/config.toml
+ls
+cd nu/
+ls
+config nu
+code
+which code
+code
+cd `/Users/jamesb/Library/Application Support/nushell/`
+ls
+code config.nu
+ls
+cd ..
+ll
+ls
+cp -R nushell/ ~/.config
